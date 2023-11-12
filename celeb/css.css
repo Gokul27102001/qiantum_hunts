@@ -1,0 +1,36 @@
+/* Add your custom styles here */
+
+body {
+    padding-top: 56px; /* Adjusted for fixed navbar height */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+#hero {
+    background: url('b.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 150px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: #333;
+}
+
+.card {
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Additional styles as needed */
