@@ -1,0 +1,50 @@
+/* Add your custom styles here */
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  /* Dashboard page styles */
+  
+  .container-dashboard {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 576px) {
+    .container {
+      margin-top: 20px;
+    }
+  
+    .container-dashboard {
+      margin-top: 20px;
+    }
+  }
+  

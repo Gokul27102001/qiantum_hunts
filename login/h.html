@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login/Signup</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Login or Sign Up</h2>
+    <button class="btn btn-primary" onclick="authenticateWithFacebook()">Login with Facebook</button>
+    <button class="btn btn-danger" onclick="authenticateWithGoogle()">Login with Gmail</button>
+</div>
+
+<!-- Facebook SDK -->
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+<!-- Google API client -->
+<script async defer src="https://apis.google.com/js/api.js"></script>
+
+<!-- Your custom script -->
+<script src="your_script.js"></script>
+
+
+<script src="your_script.js"></script> <!-- Create a separate JavaScript file for authentication logic -->
+
+</body>
+</html>
