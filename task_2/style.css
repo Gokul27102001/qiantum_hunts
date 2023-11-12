@@ -1,0 +1,12 @@
+/* Add this to your styles.css */
+.image-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.center-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
